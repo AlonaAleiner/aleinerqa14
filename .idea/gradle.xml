@@ -4,11 +4,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/SampleTest" />
-        <option name="gradleJvm" value="1.8" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/telran" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/SampleTest" />
+            <option value="$PROJECT_DIR$/telran" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

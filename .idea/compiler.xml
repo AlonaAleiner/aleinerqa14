@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="SampleTest_main" target="1.8" />
-      <module name="SampleTest_test" target="1.8" />
+      <module name="telran_main" target="1.8" />
+      <module name="telran_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
