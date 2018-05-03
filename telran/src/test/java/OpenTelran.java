@@ -23,7 +23,7 @@ public class OpenTelran {
   @Test
   public void openTelranInChrome() throws Exception {
     driver.get("https://www.tel-ran.com/");
-   
+
   }
 
   @AfterClass(alwaysRun = true)
