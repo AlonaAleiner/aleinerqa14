@@ -6,7 +6,7 @@ public class CreateGroupTest extends TestBase {
 
     @Test(priority = 2)
     public void testCreateGroupLongName() {
-        app.goToGroupsPage("groups");
+        app.goToGroupsPage();
         int before = app.getGroupCount();
         app.createNewGroup();
         app.fillGroupForm(new GroupData("Name", "Header", "Footer"));
@@ -18,7 +18,7 @@ public class CreateGroupTest extends TestBase {
 
     @Test(priority = 1)
     public void testCreateGroupShortName() {
-        app.goToGroupsPage("groups");
+        app.goToGroupsPage();
         int before = app.getGroupCount();
         app.createNewGroup();
         app.fillGroupForm(new GroupData("N", "H", "F"));
@@ -30,7 +30,7 @@ public class CreateGroupTest extends TestBase {
 
     @Test(priority = 3, enabled = false)
     public void testCreateGroupEmpty() {
-        app.goToGroupsPage("groups");
+        app.goToGroupsPage();
         int before = app.getGroupCount();
         app.createNewGroup();
         app.fillGroupForm(new GroupData("", "", ""));

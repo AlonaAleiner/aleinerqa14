@@ -30,10 +30,6 @@ public class ApplicationManager {
         driver.findElement(By.xpath("//input[@value='Login']")).click();
     }
 
-    public void goToGroupsPage(String groups) {
-        driver.findElement(By.linkText(groups)).click();
-    }
-
     public void createNewGroup() {
         driver.findElement(By.name("new")).click();
     }
@@ -52,7 +48,7 @@ public class ApplicationManager {
 
     public void submitGroupCreating() {
         driver.findElement(By.name("submit")).click();
-        goToGroupsPage("group page");
+        goToGroupsPage();
     }
 
     public void selectGroup() {
@@ -60,7 +56,7 @@ public class ApplicationManager {
     }
 
     public void deleteGroup() {
-        driver.findElement(By.name("delete[]")).click();
+        driver.findElement(By.name("delete")).click();
     }
 
     public void selectGroupToAdding() {
@@ -172,17 +168,17 @@ public class ApplicationManager {
 
     public void editContact() {
         driver.findElement(By.xpath("//img[@alt='Edit']")).click();
-
-
     }
 
     public void deleteContact() {
         driver.findElement(By.cssSelector("input[value=Delete]")).click();
-
-
     }
 
     public void updateContact() {
         driver.findElement(By.cssSelector("input[value=Update]")).click();
+    }
+
+    public void goToGroupsPage() {
+        driver.findElement(By.xpath("//a[@href='group.php']")).click();
     }
 }

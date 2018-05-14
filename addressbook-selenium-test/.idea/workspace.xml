@@ -36,11 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeleteGroupTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeleteGroupTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeleteGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="103">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +51,8 @@
       <file leaf-file-name="ModifyGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ModifyGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="119">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +63,8 @@
       <file leaf-file-name="DeleteContactTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeleteContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +75,7 @@
       <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
+            <state relative-caret-position="-4655">
               <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="e#2829#2830#0" expanded="true" />
@@ -84,8 +87,8 @@
       <file leaf-file-name="CreateGroupTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreateGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="510">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -93,26 +96,23 @@
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="86">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#start#0;class#ApplicationManager#0" />
                 <element signature="method#login#0;class#ApplicationManager#0" />
                 <element signature="method#fillGroupForm#0;class#ApplicationManager#0" />
-                <element signature="method#submitGroupCreating#0;class#ApplicationManager#0" />
                 <element signature="method#selectGroupToAdding#0;class#ApplicationManager#0" />
                 <element signature="method#fillContactForm#0;class#ApplicationManager#0" />
                 <element signature="e#6919#6920#0" expanded="true" />
                 <element signature="e#6991#6992#0" expanded="true" />
-                <element signature="e#7316#7317#0" expanded="true" />
-                <element signature="e#7397#7398#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateContactTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UpdateContactTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UpdateContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -146,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/AddContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -460,13 +460,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TestBase1.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeleteGroupTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DeleteGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ModifyGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/ContactData.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddContactTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UpdateContactTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ModifyGroup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateGroupTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeleteContactTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeleteGroupTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApplicationManager.java" />
       </list>
     </option>
@@ -525,9 +525,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UpdateContactTest">
+  <component name="RunManager" selected="TestNG.DeleteGroupTest.groupTestDelition">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -574,29 +574,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="AddContactTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-selenium-test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddContactTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration name="DeleteContactTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-selenium-test_test" />
@@ -621,16 +598,62 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DeleteContactTest.contactTestDelition" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteGroupTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-selenium-test_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeleteContactTest" />
-      <option name="METHOD_NAME" value="contactTestDelition" />
+      <option name="MAIN_CLASS_NAME" value="DeleteGroupTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="DeleteGroupTest.groupTestDelition" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-test_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeleteGroupTest" />
+      <option name="METHOD_NAME" value="groupTestDelition" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ModifyGroup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-test_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ModifyGroup" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -667,29 +690,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="UpdateContactTest.contactTestUpdate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-selenium-test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UpdateContactTest" />
-      <option name="METHOD_NAME" value="contactTestUpdate" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -713,19 +713,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.AddContactTest" />
-      <item itemvalue="TestNG.DeleteContactTest.contactTestDelition" />
       <item itemvalue="TestNG.DeleteContactTest" />
-      <item itemvalue="TestNG.UpdateContactTest.contactTestUpdate" />
+      <item itemvalue="TestNG.DeleteGroupTest" />
+      <item itemvalue="TestNG.DeleteGroupTest.groupTestDelition" />
+      <item itemvalue="TestNG.ModifyGroup" />
       <item itemvalue="TestNG.UpdateContactTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeleteGroupTest.groupTestDelition" />
         <item itemvalue="TestNG.UpdateContactTest" />
+        <item itemvalue="TestNG.ModifyGroup" />
         <item itemvalue="TestNG.DeleteContactTest" />
-        <item itemvalue="TestNG.DeleteContactTest.contactTestDelition" />
-        <item itemvalue="TestNG.AddContactTest" />
-        <item itemvalue="TestNG.UpdateContactTest.contactTestUpdate" />
+        <item itemvalue="TestNG.DeleteGroupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -743,35 +743,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeleteContactTest_contactTestDelition - 2018.05.11 at 17h 57m 11s.xml">
-      <configuration name="DeleteContactTest.contactTestDelition" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UpdateContactTest_contactTestUpdate - 2018.05.11 at 18h 19m 10s.xml">
-      <configuration name="UpdateContactTest.contactTestUpdate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteContactTest - 2018.05.12 at 22h 04m 32s.xml">
+    <history-entry file="DeleteContactTest - 2018.05.14 at 10h 13m 31s.xml">
       <configuration name="DeleteContactTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddContactTest - 2018.05.12 at 22h 06m 54s.xml">
-      <configuration name="AddContactTest" configurationId="TestNG" />
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 13m 48s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_contactTestDelition - 2018.05.12 at 22h 08m 24s.xml">
-      <configuration name="DeleteContactTest.contactTestDelition" configurationId="TestNG" />
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 15m 28s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_contactTestDelition - 2018.05.12 at 22h 10m 07s.xml">
-      <configuration name="DeleteContactTest.contactTestDelition" configurationId="TestNG" />
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 15m 59s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_contactTestDelition - 2018.05.12 at 22h 13m 03s.xml">
-      <configuration name="DeleteContactTest.contactTestDelition" configurationId="TestNG" />
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 16m 34s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest - 2018.05.12 at 22h 13m 31s.xml">
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 20m 12s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 21m 35s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteGroupTest - 2018.05.14 at 10h 23m 29s.xml">
+      <configuration name="DeleteGroupTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteGroupTest_groupTestDelition - 2018.05.14 at 10h 28m 27s.xml">
+      <configuration name="DeleteGroupTest.groupTestDelition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteContactTest - 2018.05.14 at 10h 31m 19s.xml">
       <configuration name="DeleteContactTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteContactTest - 2018.05.12 at 22h 13m 51s.xml">
-      <configuration name="DeleteContactTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UpdateContactTest - 2018.05.12 at 22h 14m 12s.xml">
-      <configuration name="UpdateContactTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -787,11 +787,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -840,13 +840,10 @@
             <element signature="method#start#0;class#ApplicationManager#0" />
             <element signature="method#login#0;class#ApplicationManager#0" />
             <element signature="method#fillGroupForm#0;class#ApplicationManager#0" />
-            <element signature="method#submitGroupCreating#0;class#ApplicationManager#0" />
             <element signature="method#selectGroupToAdding#0;class#ApplicationManager#0" />
             <element signature="method#fillContactForm#0;class#ApplicationManager#0" />
             <element signature="e#6919#6920#0" expanded="true" />
             <element signature="e#6991#6992#0" expanded="true" />
-            <element signature="e#7316#7317#0" expanded="true" />
-            <element signature="e#7397#7398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1105,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1119,34 +1109,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeleteGroupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/addressbook/model/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateGroupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UpdateContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ModifyGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1156,44 +1139,58 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/AddContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="510">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4655">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#ApplicationManager#0" />
-            <element signature="method#login#0;class#ApplicationManager#0" />
-            <element signature="method#fillGroupForm#0;class#ApplicationManager#0" />
-            <element signature="method#submitGroupCreating#0;class#ApplicationManager#0" />
-            <element signature="method#selectGroupToAdding#0;class#ApplicationManager#0" />
-            <element signature="method#fillContactForm#0;class#ApplicationManager#0" />
-            <element signature="e#6919#6920#0" expanded="true" />
-            <element signature="e#6991#6992#0" expanded="true" />
-            <element signature="e#7316#7317#0" expanded="true" />
-            <element signature="e#7397#7398#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeleteContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UpdateContactTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="86">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#ApplicationManager#0" />
+            <element signature="method#login#0;class#ApplicationManager#0" />
+            <element signature="method#fillGroupForm#0;class#ApplicationManager#0" />
+            <element signature="method#selectGroupToAdding#0;class#ApplicationManager#0" />
+            <element signature="method#fillContactForm#0;class#ApplicationManager#0" />
+            <element signature="e#6919#6920#0" expanded="true" />
+            <element signature="e#6991#6992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeleteGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

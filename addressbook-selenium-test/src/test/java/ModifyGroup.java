@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class ModifyGroup extends TestBase {
     @Test
     public void groupModificationTests() {
-        app.goToGroupsPage("groups");
+        app.goToGroupsPage();
         int before = app.getGroupCount();
         app.selectGroup();
         app.initModifyGroup();

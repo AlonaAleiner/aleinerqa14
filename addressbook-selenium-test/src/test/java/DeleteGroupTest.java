@@ -1,4 +1,4 @@
-/*
+
 
 
 import org.junit.Assert;
@@ -11,12 +11,11 @@ public class DeleteGroupTest extends TestBase {
         int before = app.getGroupCount();
         app.selectGroup();
         app.deleteGroup();
+        app.returnToGroupsPage();
         int after = app.getGroupCount();
         org.testng.Assert.assertEquals(after, before - 1);
     }
-
-
 }
 
 
-*/
+
