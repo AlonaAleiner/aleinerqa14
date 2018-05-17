@@ -1,68 +1,15 @@
+package com.telran.addressbook.appManager;
+
 import com.telran.addressbook.model.ContactData;
-import com.telran.addressbook.model.GroupData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.concurrent.TimeUnit;
-
-public class ApplicationManager {
+public class ContactHelper {
     private WebDriver driver;
 
-    public void start() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    }
-
-    public void openAddressBook(String url) {
-        driver.get(url);
-    }
-
-    public void login(String user, String pwd) {
-        driver.findElement(By.name("user")).click();
-        driver.findElement(By.name("user")).clear();
-        driver.findElement(By.name("user")).sendKeys(user);
-        driver.findElement(By.name("pass")).clear();
-        driver.findElement(By.name("pass")).sendKeys(pwd);
-        driver.findElement(By.xpath("//input[@value='Login']")).click();
-    }
-
-    public void createNewGroup() {
-        driver.findElement(By.name("new")).click();
-    }
-
-    public void fillGroupForm(GroupData groupData) {
-        driver.findElement(By.name("group_name")).click();
-        driver.findElement(By.name("group_name")).clear();
-        driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
-        driver.findElement(By.name("group_header")).click();
-        driver.findElement(By.name("group_header")).clear();
-        driver.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
-        driver.findElement(By.name("group_footer")).click();
-        driver.findElement(By.name("group_footer")).clear();
-        driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
-    }
-
-    public void submitGroupCreating() {
-        driver.findElement(By.name("submit")).click();
-        goToGroupsPage();
-    }
-
-    public void selectGroup() {
-        driver.findElement(By.name("selected[]")).click();
-    }
-
-    public void deleteGroup() {
-        driver.findElement(By.name("delete")).click();
-    }
-
-    public void selectGroupToAdding() {
-        driver.findElement(By.name("new_group")).click();
-        new Select(driver.findElement(By.name("new_group"))).selectByVisibleText("Name");
-        driver.findElement(By.name("new_group")).click();
+    public ContactHelper(WebDriver driver) {
+        this.driver = driver;
     }
 
     public void submitContactAdding() {
@@ -124,44 +71,6 @@ public class ApplicationManager {
         driver.findElement(add_new).click();
     }
 
-    public void stop() {
-        driver.quit();
-    }
-
-    private boolean isElementPresent(By by) {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
-
-    private boolean isAlertPresent() {
-        try {
-            driver.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
-    }
-
-    public int getGroupCount() {
-        return driver.findElements(By.name("selected[]")).size();
-    }
-
-    public void initModifyGroup() {
-        driver.findElement(By.xpath("//*[@value='Edit group']")).click();
-    }
-
-    public void submitGroupModification() {
-        driver.findElement(By.cssSelector("input[name=update]")).click();
-    }
-
-    public void returnToGroupsPage() {
-        driver.findElement(By.linkText("group page")).click();
-    }
-
     public int getContactCount() {
         return driver.findElements(By.name("selected[]")).size();
     }
@@ -177,8 +86,5 @@ public class ApplicationManager {
     public void updateContact() {
         driver.findElement(By.cssSelector("input[value=Update]")).click();
     }
-
-    public void goToGroupsPage() {
-        driver.findElement(By.xpath("//a[@href='group.php']")).click();
-    }
 }
+
