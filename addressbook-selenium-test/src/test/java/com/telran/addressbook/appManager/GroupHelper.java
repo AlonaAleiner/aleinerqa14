@@ -5,50 +5,42 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class GroupHelper {
+public class GroupHelper extends HelperBase {
     private WebDriver driver;
 
     public GroupHelper(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void createNewGroup() {
-        driver.findElement(By.name("new")).click();
+        click(By.name("new"));
     }
 
     public void fillGroupForm(GroupData groupData) {
-        driver.findElement(By.name("group_name")).click();
-        driver.findElement(By.name("group_name")).clear();
-        driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
-        driver.findElement(By.name("group_header")).click();
-        driver.findElement(By.name("group_header")).clear();
-        driver.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
-        driver.findElement(By.name("group_footer")).click();
-        driver.findElement(By.name("group_footer")).clear();
-        driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
+        type(By.name("group_name"), groupData.getName());
+        type(By.name("group_header"), groupData.getHeader());
+        type(By.name("group_footer"), groupData.getFooter());
     }
 
     public void submitGroupCreating() {
-        driver.findElement(By.name("submit")).click();
+        click(By.name("submit"));
         goToGroupsPage();
     }
 
     private void goToGroupsPage() {
-        driver.findElement(By.xpath("//a[@href='group.php']")).click();
+        click(By.xpath("//a[@href='group.php']"));
     }
 
     public void selectGroup() {
-        driver.findElement(By.name("selected[]")).click();
+        click(By.name("selected[]"));
     }
 
     public void deleteGroup() {
-        driver.findElement(By.name("delete")).click();
+        click(By.name("delete"));
     }
 
     public void selectGroupToAdding() {
-        driver.findElement(By.name("new_group")).click();
-        new Select(driver.findElement(By.name("new_group"))).selectByVisibleText("Name");
-        driver.findElement(By.name("new_group")).click();
+        click(By.name("new_group"));
     }
 
     public int getGroupCount() {
@@ -56,14 +48,28 @@ public class GroupHelper {
     }
 
     public void initModifyGroup() {
-        driver.findElement(By.xpath("//*[@value='Edit group']")).click();
+        click(By.xpath("//*[@value='Edit group']"));
     }
 
     public void submitGroupModification() {
-        driver.findElement(By.cssSelector("input[name=update]")).click();
+        click(By.cssSelector("input[name=update]"));
     }
 
     public void returnToGroupsPage() {
-        driver.findElement(By.linkText("group page")).click();
+        click(By.linkText("group page"));
+    }
+
+    public boolean isThereAGruop() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void createGroup() {
+        createNewGroup();
+        fillGroupForm(new GroupData("n", "h", "f"));
+        submitGroupCreating();
+        returnToGroupsPage();
     }
 }
+
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts.iml" filepath="$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts_main.iml" group="HomWorkCreateKontakts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HomWorkCreateKontakts_test.iml" group="HomWorkCreateKontakts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressBook-selenium_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressBook-selenium_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressBook-selenium_test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressBook-selenium_test_main.iml" group="addressBook-selenium_test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressBook-selenium_test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressBook-selenium_test_test.iml" group="addressBook-selenium_test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018.iml" filepath="$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018_main.iml" group="homWorkQa_14_27.04.2018" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homWorkQa_14_27.04.2018_test.iml" group="homWorkQa_14_27.04.2018" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample_Test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample_Test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample_Test_main.iml" group="sample_Test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample_Test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample_Test_test.iml" group="sample_Test" />
+    </modules>
+  </component>
+</project>
