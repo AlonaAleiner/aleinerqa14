@@ -11,7 +11,7 @@ public class AddContactTest extends TestBase {
     @Test
     public void testAddContact1() throws Exception {
         int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().addContact(By.linkText("add new"));
+        app.getContactHelper().addContact();
         app.getContactHelper().fillContactForm(new ContactData()
                 .withFirstname("A")
                 .withMiddlename("")
@@ -35,7 +35,7 @@ public class AddContactTest extends TestBase {
     @Test
     public void testAddContact2() throws Exception {
         int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().addContact(By.linkText("add new"));
+        app.getContactHelper().addContact();
         app.getContactHelper().fillContactForm(new ContactData()
                 .withFirstname("")
                 .withLastname(""));
