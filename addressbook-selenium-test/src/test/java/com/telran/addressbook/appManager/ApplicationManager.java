@@ -6,6 +6,9 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
@@ -15,13 +18,27 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     protected WebDriver driver;
     private GroupHelper groupHelper;
+    private HelperBase helperBase;
+    private String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void start() {
-        driver = new ChromeDriver();
+        if (browser.equals(BrowserType.CHROME)) {
+            driver = new ChromeDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            driver = new FirefoxDriver();
+        } else if (browser.equals(BrowserType.EDGE)) {
+            driver = new EdgeDriver();
+        }
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         contactHelper = new ContactHelper(driver);
+        helperBase = new HelperBase(driver);
         openAddressBook("http://localhost/addressbook/");
         login("admin", "secret");
     }
@@ -53,5 +70,9 @@ public class ApplicationManager {
 
     public ContactHelper getContactHelper() {
         return contactHelper;
+    }
+
+    public HelperBase getHelperBase() {
+        return helperBase;
     }
 }

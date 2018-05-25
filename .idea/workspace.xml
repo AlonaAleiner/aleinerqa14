@@ -2,9 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7191f8-0edb-4cda-bec1-9080bc48010b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telran/src/test/java/OpenTelran.java" beforeDir="false" afterPath="$PROJECT_DIR$/telran/src/test/java/OpenTelran.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_google_guava_guava_23_6_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/libraries/Gradle__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/HomWorkCreateKontakts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/HomWorkCreateKontakts_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/HomWorkCreateKontakts_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/addressBook-selenium_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/addressBook-selenium_test_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/addressBook-selenium_test_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/homWorkQa_14_27.04.2018.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/homWorkQa_14_27.04.2018_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/homWorkQa_14_27.04.2018_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/sample_Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/sample_Test_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/modules/sample_Test_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/appManadger/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/appManadger/ContactHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/appManadger/GroupHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/appManadger/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/appManadger/NavigationHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/madel/ContactData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/madel/GruopData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/ContactModificationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/CreateGroupTestt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/CreateKontakt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/DeleteContakt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/DeleteGroupTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/GruopModificationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/out/test/classes/com/telran/addresbook/tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/appManadger/ApplicationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/appManadger/ContactHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/appManadger/GroupHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/appManadger/HelperBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/appManadger/NavigationHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/madel/ContactData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/madel/GruopData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/ContactModificationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/CreateGroupTestt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/CreateKontakt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/DeleteContakt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/DeleteGroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/GruopModificationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/addressBook-selenium_test/src/test/java/com/telran/addresbook/tests/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/out/test/classes/HomWork_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/homWorkQa_14_27.04.2018/src/test/java/HomWork_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/out/test/classes/FirstClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexZaharov_QA14-master/sample_Test/src/test/java/FirstClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/ContactHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/GroupHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/appManager/NavigationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/model/ContactData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/model/GroupData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/AddContactTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/AddContactTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/CreateGroupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/CreateGroupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/ModifyGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/ModifyGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/out/test/classes/com/telran/addressbook/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/AddContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/AddContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/CreateGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/CreateGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/ModifyGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/ModifyGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/telran/.gradle/" />
     <ignored path="$PROJECT_DIR$/telran/build/" />
@@ -35,10 +159,129 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
+    <leaf>
+      <file leaf-file-name="ContactData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/ContactData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+              <folding>
+                <element signature="e#1898#1899#0" expanded="true" />
+                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2649#2650#0" expanded="true" />
+                <element signature="e#2680#2681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/GroupData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ContactHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteWebDriver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.11.0/27548ec14b525fcf3b6c2ac01c8d1ce11564ebb2/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+              <folding>
+                <element signature="e#11385#11386#0" expanded="true" />
+                <element signature="e#11422#11423#0" expanded="true" />
+                <element signature="e#14197#14198#0" expanded="true" />
+                <element signature="e#14240#14241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="By.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.11.0/1dda1bc33f055dfdde435baaed51e49fe344eee1/selenium-api-3.11.0-sources.jar!/org/openqa/selenium/By.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="302" selection-start-line="302" selection-end-line="302" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddContactTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/AddContactTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="33" />
+              <folding>
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteContactTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/DeleteContactTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -49,11 +292,13 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test" value="C:\Users\Алена\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
         <entry key="$PROJECT_DIR$/telran" value="C:\Users\Алена\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test" value="4.4" />
         <entry key="$PROJECT_DIR$/telran" value="4.4" />
       </map>
     </option>
@@ -95,6 +340,147 @@
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'addressbook-selenium-test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'addressbook-selenium-test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'addressbook-selenium-test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'addressbook-selenium-test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/telran">
           <value>
             <list>
@@ -240,9 +626,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/addressbook-selenium-test" value="6100781059279" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test" value="6100781413736" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-test/build.gradle" value="2852791661" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test/build.gradle" value="3575699265" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/settings.gradle" value="652935599" />
         <entry key="$PROJECT_DIR$/telran" value="6100132103150" />
@@ -254,6 +640,104 @@
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$PROJECT_DIR$/addressbook-selenium-test">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/addressbook-selenium-test">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/addressbook-selenium-test" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="addressbook-selenium-test" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-option-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-cli-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-api-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-docs-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-launcher-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-logging-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-messaging-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-core-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-process-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-resources-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/addressbook-selenium-test/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/addressbook-selenium-test/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/telran">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -367,10 +851,13 @@
         <option value="$PROJECT_DIR$/telran/build.gradle" />
         <option value="$PROJECT_DIR$/telran/src/test/java/OpenSite.java" />
         <option value="$PROJECT_DIR$/telran/src/test/java/OpenTelran.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/AddContactTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/ContactData.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ContactHelper.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -382,9 +869,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="appManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="telran" type="b2602c69:ProjectViewProjectNode" />
               <item name="telran" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -394,17 +939,29 @@
               <item name="telran" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telran" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="telran" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telran" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-selenium-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -421,7 +978,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenTelran.openTelranInChrome">
+  <component name="RunManager" selected="TestNG.AddContactTest.testAddContact2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -441,16 +998,22 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="OpenSite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="telran_test" />
+    <configuration name="AddContactTest.testAddContact1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenSite" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.AddContactTest" />
+      <option name="METHOD_NAME" value="testAddContact1" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -464,14 +1027,49 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="OpenSite.openSite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="telran_test" />
+    <configuration name="AddContactTest.testAddContact2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenSite" />
-      <option name="METHOD_NAME" value="openSite" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.AddContactTest" />
+      <option name="METHOD_NAME" value="testAddContact2" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="DeleteContactTest.contactTestDelition" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.DeleteContactTest" />
+      <option name="METHOD_NAME" value="contactTestDelition" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -556,17 +1154,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.OpenSite.openSite" />
-      <item itemvalue="TestNG.OpenSite" />
       <item itemvalue="TestNG.OpenTelran.testUntitledTestCase" />
       <item itemvalue="TestNG.OpenTelran.openTelranInChrome" />
+      <item itemvalue="TestNG.AddContactTest.testAddContact1" />
+      <item itemvalue="TestNG.DeleteContactTest.contactTestDelition" />
+      <item itemvalue="TestNG.AddContactTest.testAddContact2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddContactTest.testAddContact2" />
+        <item itemvalue="TestNG.DeleteContactTest.contactTestDelition" />
+        <item itemvalue="TestNG.AddContactTest.testAddContact1" />
         <item itemvalue="TestNG.OpenTelran.openTelranInChrome" />
         <item itemvalue="TestNG.OpenTelran.testUntitledTestCase" />
-        <item itemvalue="TestNG.OpenSite.openSite" />
-        <item itemvalue="TestNG.OpenSite" />
       </list>
     </recent_temporary>
   </component>
@@ -584,27 +1184,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenSite_openSite - 2018.04.30 at 19h 22m 52s.xml">
-      <configuration name="OpenSite.openSite" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_testUntitledTestCase - 2018.04.30 at 19h 33m 39s.xml">
-      <configuration name="OpenTelran.testUntitledTestCase" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 38m 10s.xml">
-      <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 38m 51s.xml">
-      <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 41m 10s.xml">
-      <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 42m 45s.xml">
-      <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 43m 28s.xml">
-      <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 45m 07s.xml">
       <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
     </history-entry>
@@ -614,24 +1193,46 @@
     <history-entry file="OpenTelran_openTelranInChrome - 2018.04.30 at 19h 58m 25s.xml">
       <configuration name="OpenTelran.openTelranInChrome" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddContactTest_testAddContact1 - 2018.05.25 at 08h 07m 15s.xml">
+      <configuration name="AddContactTest.testAddContact1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddContactTest_testAddContact1 - 2018.05.25 at 08h 10m 29s.xml">
+      <configuration name="AddContactTest.testAddContact1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddContactTest_testAddContact1 - 2018.05.25 at 08h 17m 49s.xml">
+      <configuration name="AddContactTest.testAddContact1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteContactTest_contactTestDelition - 2018.05.25 at 08h 19m 47s.xml">
+      <configuration name="DeleteContactTest.contactTestDelition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddContactTest_testAddContact2 - 2018.05.25 at 08h 20m 41s.xml">
+      <configuration name="AddContactTest.testAddContact2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddContactTest_testAddContact2 - 2018.05.25 at 08h 55m 54s.xml">
+      <configuration name="AddContactTest.testAddContact2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddContactTest_testAddContact2 - 2018.05.25 at 09h 01m 23s.xml">
+      <configuration name="AddContactTest.testAddContact2" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
-      <window_info anchor="bottom" id="Build" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -644,8 +1245,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -697,8 +1298,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/DeleteContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.11.0/27548ec14b525fcf3b6c2ac01c8d1ce11564ebb2/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+          <folding>
+            <element signature="e#11385#11386#0" expanded="true" />
+            <element signature="e#11422#11423#0" expanded="true" />
+            <element signature="e#14197#14198#0" expanded="true" />
+            <element signature="e#14240#14241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.11.0/1dda1bc33f055dfdde435baaed51e49fe344eee1/selenium-api-3.11.0-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/model/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+          <folding>
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2680#2681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/tests/AddContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/com/telran/addressbook/appManager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

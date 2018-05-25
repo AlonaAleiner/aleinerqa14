@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class GroupHelper extends HelperBase {
-    private WebDriver driver;
 
     public GroupHelper(WebDriver driver) {
         super(driver);
@@ -65,7 +64,7 @@ public class GroupHelper extends HelperBase {
 
     public void createGroup() {
         createNewGroup();
-        fillGroupForm(new GroupData("n", "h", "f"));
+        fillGroupForm(new GroupData().withName("n").withHeader("h").withFooter("f"));
         submitGroupCreating();
         returnToGroupsPage();
     }

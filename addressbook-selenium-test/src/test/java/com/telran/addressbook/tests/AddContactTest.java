@@ -12,7 +12,20 @@ public class AddContactTest extends TestBase {
     public void testAddContact1() throws Exception {
         int before = app.getContactHelper().getContactCount();
         app.getContactHelper().addContact(By.linkText("add new"));
-        app.getContactHelper().fillContactForm(new ContactData("John", "Name", "Smith", "Jonny", "Title", "Company", "Address", "Home", "Mobile", "Work", "Fax", "e-mail", "facebook.jonny.ru", "1", "January", "1980"));
+        app.getContactHelper().fillContactForm(new ContactData()
+                .withFirstname("A")
+                .withMiddlename("")
+                .withLastname("")
+                .withNickname("")
+                .withTitle("")
+                .withCompany("")
+                .withAddress("")
+                .withHome("")
+                .withMobile("")
+                .withWork("")
+                .withFax("")
+                .withEmail("")
+                .withHomepage(""));
         app.getGroupHelper().selectGroupToAdding();
         app.getContactHelper().submitContactAdding();
         int after = app.getContactHelper().getContactCount();
@@ -23,8 +36,10 @@ public class AddContactTest extends TestBase {
     public void testAddContact2() throws Exception {
         int before = app.getContactHelper().getContactCount();
         app.getContactHelper().addContact(By.linkText("add new"));
-        app.getContactHelper().fillContactForm(new ContactData("Ann", "Eve", "York", "Ann111", "Title", "Company", "Address", "Home", "0509998877", "Work", "Fax", "ann111@gmail.com", "facebook.ann111.ru", "2", "February", "1982"));
-        app.getGroupHelper().selectGroupToAdding();
+        app.getContactHelper().fillContactForm(new ContactData()
+                .withFirstname("")
+                .withLastname(""));
+       // app.getGroupHelper().selectGroupToAdding();
         app.getContactHelper().submitContactAdding();
         int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after, before + 1);

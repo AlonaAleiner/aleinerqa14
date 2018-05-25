@@ -1,1 +1,0 @@
-# AlexZaharov_QA14
