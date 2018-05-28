@@ -69,5 +69,8 @@ public class ContactHelper extends HelperBase {
                 .withHomepage("homepage"));
         submitContactAdding();
     }
-}
 
+    public boolean isThereAContact() {
+        return isElementPresent(By.name("selected[]"));
+    }
+}

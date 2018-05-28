@@ -15,5 +15,12 @@ public class NavigationHelper extends HelperBase {
         }
         click(By.linkText("groups"));
     }
+
+    public void returnHome() {
+        if(isElementPresent(By.tagName("table"))){
+            return;
+        }
+        click(By.xpath("//a[@href='./']"));
+    }
 }
 
