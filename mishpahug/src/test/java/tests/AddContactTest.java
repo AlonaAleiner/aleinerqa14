@@ -1,10 +1,7 @@
-package com.telran.addressbook.tests;
+package tests;
 
 import com.telran.addressbook.model.ContactData;
 import org.testng.Assert;
-import org.testng.annotations.*;
-
-import org.openqa.selenium.*;
 
 import java.io.File;
 
@@ -43,8 +40,7 @@ public class AddContactTest extends TestBase {
         app.getContactHelper().addContact();
         app.getContactHelper().fillContactForm(new ContactData()
                 .withFirstname("")
-                .withLastname("")
-                .withGroup("Name"));
+                .withLastname(""));
         // app.getGroupHelper().selectGroupToAdding();
         app.getContactHelper().submitContactAdding();
         int after = app.getContactHelper().getContactCount();

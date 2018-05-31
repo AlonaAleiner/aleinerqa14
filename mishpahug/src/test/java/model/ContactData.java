@@ -1,4 +1,4 @@
-package com.telran.addressbook.model;
+package model;
 
 import java.io.File;
 
@@ -28,6 +28,7 @@ public class ContactData {
         return this;
     }
 
+
     public File getPhoto() {
         return photo;
     }
@@ -36,6 +37,7 @@ public class ContactData {
         this.photo = photo;
         return this;
     }
+
 
     public ContactData withFirstname(String firstname) {
         this.firstname = firstname;
